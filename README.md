@@ -1,7 +1,6 @@
 # meteor-apn
-Meteor smart package wrapper for node-apn, Apple Push Notifications
+Meteor smart package wrapper for [node-apn](https://github.com/argon/node-apn), Apple Push Notifications.
 
-Meteor smart package wrapper for [node-apn](https://github.com/argon/node-apn).
 Currently server-side only.
 
 
