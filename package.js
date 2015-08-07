@@ -9,7 +9,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.1.0');
+  api.versionsFrom('METEOR@1.1.0.1');
 
   api.addFiles('gb96:apn.js', 'server');
 
