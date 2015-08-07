@@ -1,0 +1,11 @@
+{
+  "dependencies": [
+    [
+      "meteor",
+      "1.1.2"
+    ]
+  ],
+  "pluginDependencies": [],
+  "toolVersion": "meteor-tool@1.0.34",
+  "format": "1.0"
+}

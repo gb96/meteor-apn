@@ -1,0 +1,10 @@
+{
+  "name": "apn",
+  "description": "Apple Push Notification library",
+  "homepage": "https://github.com/gb96/meteor-apn",
+  "author": "Greg Bowering",
+  "version": "1.7.4",
+  "git": "https://github.com/gb96/meteor-apn.git",
+  "packages": {
+  }
+}
