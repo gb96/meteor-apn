@@ -84,11 +84,11 @@ Notification = npmApn.Notification;
  * Socket API
  */
 if (npmApn.apnSocket) {
-	debug("Using 0.12 socket API");
+	Meteor._debug("Using 0.12 socket API");
 	apnSocket = npmApn.apnSocket;
 }
 else {
-	debug("Using legacy socket API");
+	Meteor._debug("Using legacy socket API");
 	apnSocketLegacy = npmApn.apnSocketLegacy;
 }
 
