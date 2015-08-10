@@ -4,12 +4,12 @@
 Package.describe({
   name: 'gb96:apn',
   summary: 'Apple Push Notification library node-apn wrapped for Meteor.',
-  version: '1.7.4',
+  version: '1.7.4.1',
   git: 'https://github.com/gb96/meteor-apn.git'
 });
 
 Npm.depends({
-  apn: '1.74'
+  apn: '1.7.4'
 });
 
 Package.onUse(function(api) {
