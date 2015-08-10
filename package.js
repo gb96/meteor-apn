@@ -4,7 +4,7 @@
 Package.describe({
   name: 'gb96:apn',
   summary: 'Apple Push Notification library node-apn wrapped for Meteor.',
-  version: '1.7.4_5',
+  version: '1.7.4_6',
   git: 'https://github.com/gb96/meteor-apn.git'
 });
 
@@ -17,8 +17,12 @@ Package.onUse(function(api) {
 
   api.addFiles('server.js', 'server');
 
-  // Export apn module from node-apn:
-  api.export('apn', 'server');
+  // Export apn module api from node-apn:
+  api.export('Connection', 'server');
+  api.export('Device', 'server');
+  api.export('Errors', 'server');
+  api.export('Feedback', 'server');
+  api.export('Notification', 'server');
 });
 
 // Unit tests:
