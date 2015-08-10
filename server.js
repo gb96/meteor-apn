@@ -7,4 +7,4 @@
  *
  * @author Greg Bowering <gerg.bowering@gmail.com>
  */
-var apn = Npm.require('apn');
+export apn = Npm.require('apn');
