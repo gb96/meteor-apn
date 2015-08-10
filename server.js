@@ -78,7 +78,7 @@ Feedback = npmApn.Feedback;
  * @constructor
  * @param {Object} [payload]
  */
-Notification = npnApn.Notification;
+Notification = npmApn.Notification;
 
 /**
  * Socket API
